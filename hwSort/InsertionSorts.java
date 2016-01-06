@@ -1,4 +1,4 @@
-public class Sorts{
+public class InsertionSorts{
 
     public static void printArray(int[]data){
 	String message = "[";
