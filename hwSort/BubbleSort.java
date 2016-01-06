@@ -14,13 +14,12 @@ public class BubbleSort{
     public static void bubbleSort(int[]data){
 	for(int x = 0; x < data.length-1; x++){
 	    for (int i = 0; i<data.length - 1; i++){
-		if(data[x]>data[x+1]){
-		    int toSwap = data[x];
-		    data[x] = data[x+1];
-		    data[x+1] = toSwap;
+		if(data[i]>data[i+1]){
+		    int toSwap = data[i];
+		    data[i] = data[i+1];
+		    data[i+1] = toSwap;
 		}
 	    }
-	    printArray(data);
 	}
     }
 
