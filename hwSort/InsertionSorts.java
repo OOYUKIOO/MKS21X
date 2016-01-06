@@ -24,5 +24,11 @@ public class InsertionSorts{
 	}
     }
 
+    public static void main(String[]args){
+        int[]test = {4,2,6,1,0,3};
+        printArray(test);
+	insertionSort(test);
+	printArray(test);
+    }
 
 }
