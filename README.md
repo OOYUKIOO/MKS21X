@@ -1,1 +1,2 @@
-# MKS21X
+# School project: Sorting algorithm
+Insertion sort, Selection sort, Bubble sort
